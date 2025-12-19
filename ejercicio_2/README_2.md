@@ -23,28 +23,30 @@ drive.mount('/content/drive')
 file_path = "/content/drive/My Drive/Colab Notebooks/Activity_3/data/music_dataset.csv"
 
 
+#### Voy a probar si funcionan ambas funciones Phython y Pandas
 
-
-
-
-
-![Comprobación funciones](Pantallazo_3.png)
-
-
-
-
-#### Error
+##### Error
 
 Aparece el primer error de código al llamar a la función. El error se producía al intentar acumular el timepo de escucha usando la instrucción "+=" sobre una clave del diccionario que no había sido incializada aún. 
 
 *Línea del problema:*
 sums[subscription] += listening_time
 
-![Error al llamar a la función](Pantallazo_6.png)
+![Error al llamar a la función](Pantallazo_5.png)
 
 Para resolverlo
 
 Sustituyo la operación `+=` por el uso del método `get()`, inicializando el acumulador a 0.0 cuando el tipo de suscripción aparece por primera vez. 
+
+##### Vuelvo a intentarlo, ahora sí funcionan ambas
+
+
+![Comprobación funciones](Pantallazo_6.png)
+
+
+
+
+
 
 ### Referencias
 
