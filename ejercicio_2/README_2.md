@@ -51,8 +51,11 @@ Sustituyo la operación `+=` por el uso del método `get()`, inicializando el ac
 
 ### Referencias
 
-https://ellibrodepython.com/leer-archivos-python
-https://www.datacamp.com/es/tutorial/pandas
-
 *Explicación del método `get()` de los diccionarios en Python:*
 https://thedataschools.com/python/diccionarios/get-metodo-diccionario.html
+
+https://ellibrodepython.com/leer-archivos-python
+
+https://www.datacamp.com/es/tutorial/pandas
+
+
