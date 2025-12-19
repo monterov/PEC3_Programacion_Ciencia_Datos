@@ -115,6 +115,7 @@ sizes = [200, 600, 1000, 1400, 1800, 5000]
 
 #### Referencias: 
  
+Documentación Unidad 4
 https://docs.python.org/3/tutorial/datastructures.html#sets
-*Explicación del método `get()` de los diccionarios en Python:*
-https://thedataschools.com/python/diccionarios/get-metodo-diccionario.html
+
+
