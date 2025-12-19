@@ -66,7 +66,7 @@ factorial_secuencial(nums)
 
 **Otro error**
 
-![Error_fs_3](pantallazo_13.png)
+![Error_fs_3](pantallazo_14.png)
 
 Durante la ejecución de la versión secuencial, el cálculo de los factoriales se completó correctamente y el tiempo de ejecución se mostró sin problemas. Sin embargo, al intentar devolver la lista completa de resultados, se produjo un `ValueError` relacionado con la conversión de enteros muy grandes a cadena.
 
