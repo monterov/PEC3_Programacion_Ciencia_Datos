@@ -44,7 +44,7 @@ factorial_secuencial(nums)
 
 Cuando llamo a la función para probarla, me sale este error:
 
-pantallazo 12
+![Error_fs](pantallazo_1.png)
 
 **Solución**
 
@@ -58,7 +58,7 @@ factorial_secuencial(nums)
 
 **Otro error**
 
-Pantallazo 13
+![Error_fs_2](pantallazo_13.png)
 
 Otro error de mi "Talon de Aquiles", no había ejecutado la celda de la función calcular_factorial, en la que venían los módulos time y math. Ejecuto y vuelvo a probar de nuevo la función.
 
@@ -66,7 +66,7 @@ factorial_secuencial(nums)
 
 **Otro error**
 
-Pantallazo 14
+![Error_fs_3](pantallazo_13.png)
 
 Durante la ejecución de la versión secuencial, el cálculo de los factoriales se completó correctamente y el tiempo de ejecución se mostró sin problemas. Sin embargo, al intentar devolver la lista completa de resultados, se produjo un `ValueError` relacionado con la conversión de enteros muy grandes a cadena.
 
