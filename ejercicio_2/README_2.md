@@ -28,7 +28,7 @@ file_path = "/content/drive/My Drive/Colab Notebooks/Activity_3/data/music_datas
 
 
 
-
+![Comprobación funciones](Pantallazo_3.png)
 
 
 
@@ -40,7 +40,7 @@ Aparece el primer error de código al llamar a la función. El error se producí
 *Línea del problema:*
 sums[subscription] += listening_time
 
-![Error al llamar a la función](Pantallazo_2.png)
+![Error al llamar a la función](Pantallazo_6.png)
 
 Para resolverlo
 
