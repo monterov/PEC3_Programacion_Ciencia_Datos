@@ -27,6 +27,12 @@ file_path = "/content/drive/My Drive/Colab Notebooks/Activity_3/data/music_datas
 
 
 
+
+
+
+
+
+
 #### Error
 
 Aparece el primer error de código al llamar a la función. El error se producía al intentar acumular el timepo de escucha usando la instrucción "+=" sobre una clave del diccionario que no había sido incializada aún. 
@@ -39,3 +45,8 @@ sums[subscription] += listening_time
 Para resolverlo
 
 Sustituyo la operación `+=` por el uso del método `get()`, inicializando el acumulador a 0.0 cuando el tipo de suscripción aparece por primera vez. 
+
+### Referencias
+
+*Explicación del método `get()` de los diccionarios en Python:*
+https://thedataschools.com/python/diccionarios/get-metodo-diccionario.html
