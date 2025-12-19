@@ -100,7 +100,9 @@ Utilizad los siguientes tamaños de lista:
 
 sizes = [200, 600, 1000, 1400, 1800, 5000]
 
+#### Error
 
+[Error de ejecución del coódigo]Pantallazo_1.png)
 
 #### Referencias: 
  
