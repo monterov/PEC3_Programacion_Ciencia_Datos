@@ -14,13 +14,20 @@ Implementación B: implementad la misma funcionalidad utilizando la librería pa
 
 Ambas funciones deben recibir únicamente el parámetro path: str, correspondiente a la ruta del fichero de datos. En ambos casos, no debe realizarse ningún tipo adicional de manipulación ni mostrar información por pantalla. Las funciones deberán únicamente devolver un diccionario con el resultado calculado.
 
-#### Vamos a resolver
+#### Toca resolver
 
-Lo primero es descargar el archivo de Drive y echarle un vistazo rápido a su estructura. Como siempre monto Drive y añado ruta de archivo. 
+En la primera implementación, la A, hay que hacer la lectura del archivo CSV manualmente usando las funciones que ya están integradas en Python. Procedimiento que voy a seguir:
 
-from google.colab import drive
-drive.mount('/content/drive')
-file_path = "/content/drive/My Drive/Colab Notebooks/Activity_3/data/music_dataset.csv"
+-Leer la cabezera del archivo para identificar las columnas y usar las que necesitamos para el ejecicio: "subscription_type" y "listening_time"
+-Recorrer el archivo línea a línea
+-Acumular el tiempo total de eschuca y el número de registros para cada tipo de suscripción, esto lo haré con el uso de diccionarios.
+-Calcular el promedio dividiendo la suma total entre el número de registros por suscripción.
+
+En la segunda implementación, la B, hay que hacer lo mismo pero con la función pandas. Procedimiento que voy a seguir:
+
+- Cargar el archivo CSV en un Dataframe
+- Agrupar los datos por "subcription_type".
+- Calcular la media de la columna " listening_time mediante el método mean ().
 
 
 #### Voy a probar si funcionan ambas funciones Phython y Pandas
@@ -40,15 +47,12 @@ Sustituyo la operación `+=` por el uso del método `get()`, inicializando el ac
 
 ##### Vuelvo a intentarlo, ahora sí funcionan ambas
 
-
 ![Comprobación funciones](Pantallazo_6.png)
 
-
-
-
-
-
 ### Referencias
+
+https://ellibrodepython.com/leer-archivos-python
+https://www.datacamp.com/es/tutorial/pandas
 
 *Explicación del método `get()` de los diccionarios en Python:*
 https://thedataschools.com/python/diccionarios/get-metodo-diccionario.html
