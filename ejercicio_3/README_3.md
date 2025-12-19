@@ -29,3 +29,7 @@ Mejorad el código con el objetivo de reducir el tiempo de ejecución. Además, 
 
 Al mejorar la aplicación, las principales operaciones se ejecutan una vez por iteración, haciendo que el tiempo de ejecución se reparta de forma equilibrada en el bucle. Se puede apreciar que hay 3.500 ejecuciones por línea y no más de 6 millones como pasaba en la aplicación original.
 
+### Referencias
+
+- Notebook de teoría Unidad 4, 3.1 Profiling del tiempo de ejecución de un programa.
+
