@@ -13,7 +13,7 @@ Para ello, se recomienda utilizar la función `os.makedirs()` con el parámetro 
 
 #### Error 
 
-Pantallazo 15
+![Error_fs_11](pantallazo_15.png)
 
 **Solución**
 
