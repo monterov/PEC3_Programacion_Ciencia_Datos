@@ -2,12 +2,15 @@ from google.colab import drive
 drive.mount('/content/drive')
 file_path = "/content/drive/My Drive/Colab Notebooks/Activity_3/data/music_dataset.csv"
 
-# Leemos archivo y comprobamos columnas
+# Ruta local al fichero de datos 
+file_path = "data/music_dataset.csv"
 
+# Leemos el archivo y comprobamos las columnas
 with open(file_path, "r", encoding="utf-8") as f:
-     columnas = f.readline().strip().split(",")
+    columnas = f.readline().strip().split(",")
 
 print(columnas)
+
 
 # Creamos función implementación A
 
