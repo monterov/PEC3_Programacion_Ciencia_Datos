@@ -64,6 +64,21 @@ Sustituyo la operación `+=` por el uso del método `get()`, inicializando el ac
 
 Evaluad y justificad cuál de las dos implementaciones es más eficiente utilizando las herramientas de análisis de rendimiento: %timeit y %lprun.
 
+Busco información sobre estas herramientas de rendimiento y las uso para analizarlas.
+
+#### Error
+
+Cuando intento usar la herramienta %lprun, aparece este error:
+
+![Error %lprun](Pantallazo_7.png)
+
+Por lo visto, la herramienta no está instalada en Colab, por lo que instalándola lo solucioné.
+
+Pantallazo 8
+
+En la implementación manual, las entradas del bucle for line in f y las operaciones ejecutaas en cada iteración, son las que concentran la mayor parte del tiempo.
+
+Pantallazo 9
 
 
 ### Referencias
