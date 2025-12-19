@@ -44,7 +44,7 @@ factorial_secuencial(nums)
 
 Cuando llamo a la función para probarla, me sale este error:
 
-![Error_fs](pantallazo_1.png)
+![Error_fs](pantallazo_12.png)
 
 **Solución**
 
