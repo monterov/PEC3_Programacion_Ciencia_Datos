@@ -87,6 +87,7 @@ En la implementación pandas, se muestra que la mayor parte del tiempo de ejecuc
 - Rendimiento y buenas prácticas de medición (perfilado y optimización)
 https://qu4nt.github.io/sklearn-doc-es/developers/performance.html
 - Video tutorial del uso de %lprun
-https://youtu.be/PnBYdFkGxJk?si=Mdi0gGURoOQnqOjx
+[![Tutorial uso de %lprun](https://img.youtube.com/vi/PnBYdFKgJk/0.jpg)](https://youtu.be/PnBYdFKgJk)
+
 
 
