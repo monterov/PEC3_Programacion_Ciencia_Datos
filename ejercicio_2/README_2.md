@@ -74,11 +74,11 @@ Cuando intento usar la herramienta %lprun, aparece este error:
 
 Por lo visto, la herramienta no está instalada en Colab, por lo que instalándola lo solucioné.
 
-![%lprun_manual](Pantallazo_8.png)
+![manual](Pantallazo_8.png)
 
 En la implementación manual, las entradas del bucle for line in f y las operaciones ejecutaas en cada iteración, son las que concentran la mayor parte del tiempo.
 
-![%lprun_pandas](Pantallazo_9.png)
+![pandas](Pantallazo_9.png)
 
 En la implementación pandas, 
 
