@@ -79,6 +79,17 @@ assert has_duplicates(prueba_con_duplicados) == has_duplicates_improved(prueba_c
 
 print("Ambas funciones producen el mismo resultado")
 
+#### Aparece un error
+
+#### Error
+
+Aparece el primer error de código al llamar a la función. El error se producía al intentar acumular el timepo de escucha usando la instrucción "+=" sobre una clave del diccionario que no había sido incializada aún. 
+
+![Error de ejecución](Pantallazo_1.png)
+
+**Error detectado**
+
+Según el error, la función `has_duplicates_improved` no estaba definida en el momento de ejecutar, el error se produjo porqueno había ejecutado la celda del algoritmo mejorado, al ejecutarla se solucionó.
 
 #### Explicación de la mejora
 
