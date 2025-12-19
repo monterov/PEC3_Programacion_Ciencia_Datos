@@ -24,3 +24,18 @@ file_path = "/content/drive/My Drive/Colab Notebooks/Activity_3/data/music_datas
 
 
 
+
+
+
+#### Error
+
+Aparece el primer error de código al llamar a la función. El error se producía al intentar acumular el timepo de escucha usando la instrucción "+=" sobre una clave del diccionario que no había sido incializada aún. 
+
+*Línea del problema:*
+sums[subscription] += listening_time
+
+![Pantallazo del error en el Ejercicio 1.3](Pantallazo_2.png)
+
+Para resolverlo
+
+Sustituyo la operación `+=` por el uso del método `get()`, inicializando el acumulador a 0.0 cuando el tipo de suscripción aparece por primera vez. 
