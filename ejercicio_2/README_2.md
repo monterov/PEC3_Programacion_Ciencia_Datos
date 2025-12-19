@@ -84,8 +84,9 @@ En la implementación pandas, se muestra que la mayor parte del tiempo de ejecuc
 
 ### Referencias
 
+- Notebook de teoría Unidad 4, 3.1 Profiling del tiempo de ejecución de un programa.
 - Rendimiento y buenas prácticas de medición (perfilado y optimización)
-https://qu4nt.github.io/sklearn-doc-es/developers/performance.html
+- https://qu4nt.github.io/sklearn-doc-es/developers/performance.html
 - Video tutorial del uso de %lprun
 [![Tutorial uso de %lprun](https://img.youtube.com/vi/PnBYdFkGxJk/hqdefault.jpg)](https://youtu.be/PnBYdFkGxJk)
 
