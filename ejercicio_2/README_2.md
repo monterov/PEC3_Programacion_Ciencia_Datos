@@ -80,11 +80,13 @@ En la implementación manual, las entradas del bucle for line in f y las operaci
 
 ![pandas](pantallazo_9.png)
 
-En la implementación pandas, 
+En la implementación pandas, se muestra que la mayor parte del tiempo de ejecución se concentra en la llamada a read_csv, donde se realiza internamente la lectura y el procesamiento del archivo. 
 
 ### Referencias
 
-- xxx
+- Rendimiento y buenas prácticas de medición (perfilado y optimización)
 https://qu4nt.github.io/sklearn-doc-es/developers/performance.html
+- Video tutorial del uso de %lprun
+https://youtu.be/PnBYdFkGxJk?si=Mdi0gGURoOQnqOjx
 
 
