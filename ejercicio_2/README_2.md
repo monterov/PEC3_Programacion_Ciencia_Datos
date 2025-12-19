@@ -91,17 +91,13 @@ https://qu4nt.github.io/sklearn-doc-es/developers/performance.html
 
 ### EG Ejercicio 2.3 
 
-¿Qué ocurriría si la cantidad de datos fuera mayor (por ejemplo, x10000 veces más grande)?
-
-¿Se mantendría la comparación de eficiencia entre ambas implementaciones o cambiaría? Justificad vuestra respuesta.
-
 **¿Qué ocurriría si la cantidad de datos fuera mayor (por ejemplo, x10.000 veces más grande)?**
 
 Si el volumen de datos fuera 10.000 veces mayor, el tiempo de ejecución de ambas implementaciones aumentaría de forma significativa, ya que, tanto en la implementación manual como en la de pandas, es necesario recorrer todos los registros del conjunto de datos.
 
 Además, se tendría que tener en cuenta que la versión con pandas va a usar la memoria RAM para hacer los cálculos, por lo que podría afectar al rendimiento según el entorno donde se trabaje.
 
-¿Se mantendría la comparación de eficiencia entre ambas implementaciones o cambiaría? Justificad la respuesta.
+**¿Se mantendría la comparación de eficiencia entre ambas implementaciones o cambiaría? Justificad la respuesta.**
 
 La comparación de eficiencia podría cambiar. Aunque hemos visto que con onjunto de datos actual la implementación manual resulta más rápida, con un volumen de datos 10.000 veces mayor, la implementación basada en pandas podría ser más eficiente en tiempo de ejecución, ya que su coste por fila es menor al apoyarse en operaciones internas optimizadas.
 
