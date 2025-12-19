@@ -51,11 +51,24 @@ Sustituyo la operación `+=` por el uso del método `get()`, inicializando el ac
 
 ### Referencias
 
-*Explicación del método `get()` de los diccionarios en Python:*
-https://thedataschools.com/python/diccionarios/get-metodo-diccionario.html
+- Explicación del método `get()` de los diccionarios en Python:  
+  https://thedataschools.com/python/diccionarios/get-metodo-diccionario.html  
+ 
+- Lectura de archivos CSV en Python:  
+  https://ellibrodepython.com/leer-archivos-python  
 
-https://ellibrodepython.com/leer-archivos-python
+- Introducción a pandas:  
+  https://www.datacamp.com/es/tutorial/pandas  
 
-https://www.datacamp.com/es/tutorial/pandas
+### Ejercicio 2.2 
+
+Evaluad y justificad cuál de las dos implementaciones es más eficiente utilizando las herramientas de análisis de rendimiento: %timeit y %lprun.
+
+
+
+### Referencias
+
+- xxx
+https://qu4nt.github.io/sklearn-doc-es/developers/performance.html
 
 
