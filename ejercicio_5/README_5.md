@@ -19,6 +19,14 @@ Para ello, se recomienda utilizar la función `os.makedirs()` con el parámetro 
 
 Importar from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
+Durante la ejecución de las pruebas de descarga, se muestra esto: 
+
+![Salida_1](pantallazo_16.png)
+
+La salida tiene mucho ruído y es de la línea del código de la función download_image, así que no la voy a tocar y dejo la salida tal cual.
+
+
+
 
 https://docs.python.org/es/3/library/concurrent.futures.html
 https://docs.python.org/es/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor
