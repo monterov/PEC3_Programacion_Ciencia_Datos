@@ -40,3 +40,68 @@ Para resolver este ejercicio he revisado ejemplos de recorridos de listas en los
 Para entender mejor por qué los bucles anidados hacen crecer el número de comparaciones de forma cuadrática, revisé una explicación con un ejemplo de doble bucle en Stack Overflow.
 
 https://stackoverflow.com/questions/64132613/python-complexity-of-on2-number-of-jumps-in-list
+
+### Ejercicio 1.2 
+
+En este ejercicio debéis mejorar el algoritmo has_duplicates de manera que reduzca su complejidad temporal. Para ello, cread una nueva función llamada has_duplicates_improved e implementad el código correspondiente.
+
+Comprobad que ambas versiones producen el mismo resultado al probarlas con diferentes entradas. Para ello, añadid una verificación adicional usando assert. Una vez mejorada, indicad la complejidad temporal del nuevo algoritmo y explicad brevemente en qué consiste la mejora respecto a la versión original.
+
+#### Mi propuesta de código:
+
+def has_duplicates_improved(num_list: list[int]) -> bool:
+    """
+    Checks whether a list of ints contains duplicate values using a set.
+
+    Args:
+        num_list (list[int]): List of integers to analyze.
+
+    Returns:
+        bool: True if duplicates are found, False otherwise.
+    """
+    seen = set() # Creo un conjunto como memoria
+    for num in num_list: # Este bucle va a recorrer la lista completa
+        if num in seen: # Que el número está en la lista
+            return True # Si la respuesta es sí, hay un duplicado
+        seen.add(num) # Se añade el duplicado a la lista
+    return False
+
+#### Pruebo las dos funciones
+
+# Listas de prueba
+prueba_sin_duplicados = [3, 7, 12, 25, 41]
+prueba_con_duplicados = [5, 9, 2, 9, 14]
+
+# Verificamos usando assert
+
+assert has_duplicates(prueba_sin_duplicados) == has_duplicates_improved(prueba_sin_duplicados)
+assert has_duplicates(prueba_con_duplicados) == has_duplicates_improved(prueba_con_duplicados)
+
+print("Ambas funciones producen el mismo resultado")
+
+
+#### Explicación de la mejora
+
+La aplicación original busca pares repetidos comparando cada elemento con todos los que vienen después usando dos bucles, lo que provoca que se repitan muchas comparaciones. Esto hace que la aplicación se relentice a medida que listado sea más grande. 
+
+En la aplicación mejorada, se usa un conjunto como memoria, usando set(), para detectar los valores que ya han aparecido, por lo que la lista solo se recorre una vez, haciendo más eficiente el código.
+
+SM Ejercicio 1.3
+
+En este ejercicio debéis comparar el tiempo de ejecución de los dos algoritmos que verifican si una lista contiene elementos duplicados: el algoritmo dado y vuestra versión mejorada.
+
+Generad listas de estos tamaños con elementos sin repetir y medid el tiempo de ejecución de ambos algoritmos para cada tamaño.
+
+Representad los resultados en una gráfica que muestre cómo crece el tiempo de ejecución en función del tamaño de la lista (n).
+
+Comentad las diferencias observadas entre ambos algoritmos, relacionándolas con sus complejidades teóricas.
+
+Utilizad los siguientes tamaños de lista:
+
+sizes = [200, 600, 1000, 1400, 1800, 5000]
+
+
+
+#### Referencias: 
+ 
+https://docs.python.org/3/tutorial/datastructures.html#sets
