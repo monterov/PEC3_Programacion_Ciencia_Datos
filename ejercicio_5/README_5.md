@@ -18,3 +18,9 @@ Para ello, se recomienda utilizar la función `os.makedirs()` con el parámetro 
 **Solución**
 
 Importar from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+
+
+https://docs.python.org/es/3/library/concurrent.futures.html
+https://docs.python.org/es/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor
+https://youtu.be/SyJYiH9EcOk?si=xroG6ITI7oeQFiya
+https://youtu.be/fU_WlPMQPZU?si=ytCvS7NG30NgtKo1
